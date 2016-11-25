@@ -1,0 +1,275 @@
+﻿
+@{
+    ViewBag.Title = "Lienhe";
+}
+
+<!--Trang liên hệ-->
+<section class="lienhe col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+
+    <!--Bài viết-->
+    <article class="baiviet col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
+        <!--Tiêu đề-->
+        <p class="title row">
+            Phòng vé skyline
+        </p>
+
+        <!--Địa chỉ-->
+        <p class="diachi row">
+            <span>Địa chỉ:</span> Số 1 lô 22 Lê Hồng Phong, Cát Bi, Hải Phòng. <br />
+            <span>Điện thoại:</span> 0313.611.158
+        </p>
+
+        <!--Hotline-->
+        <p class="hotline row">
+            <span>Hotline:</span> 0906.028211 / 0981.200288
+        </p>
+
+        <!--Thông tin về phòng vé-->
+        <ol class="row">
+
+            <!--Hình ảnh phòng vé-->
+            <li>
+                Hình ảnh trụ sở văn phòng của Skyline <br />
+                <img src="~/Content/images/anhbaiviet/lienhe.png" alt="" class="img-responsive" />
+            </li>
+
+            <!--Bản đồ-->
+            <li>
+                Bản đồ của Phòng vé Skyline tại Hải Phòng <br />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.591880025354!2d106.70321161450116!3d20.84818058609649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7abc05725f3f%3A0x1e319a6ea48d1539!2zTMO0IDIyIEzDqiBI4buTbmcgUGhvbmcsIMSQw7RuZyBLaMOqLCBOZ8O0IFF1eeG7gW4sIEjhuqNpIFBow7JuZywgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1479542644097" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </li>
+
+            <!--Form gửi tin nhắn-->
+            <li>
+                Gửi tin nhắn cho Phòng vé Skyline <br />
+
+                <!--Thông tin người gửi-->
+                <form class="row">
+
+                    <!--Ô tên người gửi-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>Tên người gửi (<span>*</span>)</p>
+                        <input type="text" value="" placeholder="Nhập họ tên ...." />
+                    </div>
+
+                    <!--Ô Email-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>Email (<span>*</span>)</p>
+                        <input type="text" value="" placeholder="Nhập email ..." />
+                    </div>
+
+                    <!--Ô số điện thoại-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>Số điện thoại (<span>*</span>)</p>
+                        <input type="text" value="" placeholder="Nhập số điện thoại ..." />
+                    </div>
+                </form>
+
+                <!--Nội dung và nút gửi-->
+                <div class="row">
+
+                    <!--Ô nhập nội dung-->
+                    <form class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <p>Nội dung (<span>*</span>)</p>
+                        <textarea cols="50" rows="10" placeholder="Nhập nội dung muốn gửi ..."></textarea>
+                    </form>
+
+                    <!--Nút gửi-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <img src="~/Content/images/anhbaiviet/form-lienhe.png" alt="" class="img-responsive" />
+                        <button type="submit">Gửi đi</button>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </article>
+
+    <!--Tìm kiếm chuyến bay - Tin Khuyến Mại-->
+    <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+        <!--Tìm chuyến bay-->
+        <div class="timchuyenbay col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Tiêu đề-->
+            <div class="title row">
+                <img src="~/Content/images/icon/plane-icon.png" alt="" class="pull-left" />
+                <p>Đặt vé máy bay</p>
+            </div>
+
+            <!--Thông tin tìm kiếm-->
+            <div class="info row">
+
+                <!--Radio button chọn loại vé-->
+                <form class="loaive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <input type="radio" name="loaive" value="khuhoi" class="pull-left" checked /><p class="pull-left">Khứ hồi</p>
+                    <input type="radio" name="loaive" value="motchieu" class="pull-left" /><p class="pull-left">Một chiều</p>
+                </form>
+
+                <!--Nhập địa điểm-->
+                <form class="diadiem col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Điểm đi-->
+                    <div class="row">
+                        <p class="pull-left">Điểm đi</p>
+                        <input type="text" placeholder="Nhập tên hoặc mã thành phố đi" value="" class="form-control" />
+                    </div>
+
+                    <!--Điểm đến-->
+                    <div class="row">
+                        <p class="pull-left">Điểm đến</p>
+                        <input type="text" placeholder="Nhập tên hoặc mã thành phố đến" value="" class="form-control" />
+                    </div>
+                </form>
+
+                <!--Thời gian-->
+                <form class="thoigian col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Ngày đi-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left">
+                        <p class="pull-left">Ngày đi</p>
+                        <select class="form-control">
+                            <option>15/11/2016</option>
+                            <option>16/11/2016</option>
+                            <option>17/11/2016</option>
+                            <option>18/11/2016</option>
+                            <option>19/11/2016</option>
+                        </select>
+                    </div>
+
+                    <!--Ngày về-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ngayve">
+                        <p class="pull-left">Ngày về</p>
+                        <select class="form-control pull-left">
+                            <option>16/11/2016</option>
+                            <option>17/11/2016</option>
+                            <option>18/11/2016</option>
+                            <option>19/11/2016</option>
+                            <option>20/11/2016</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!--Số lượng vé-->
+                <form class="soluong col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>Người lớn</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 treem">
+                        <p>Trẻ em (2-11)</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 embe">
+                        <p>Em bé (< 2)</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!--Nút tìm vé máy bay-->
+                <button type="submit">
+                    <img src="~/Content/images/icon/search-flights.png" alt="" class="img-responsive pull-left" />
+                    <p>Tìm kiếm chuyến bay</p>
+                </button>
+            </div>
+        </div>
+
+        <!--Tin khuyến mại-->
+        <div class="khuyenmai col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Tiêu đề-->
+            <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                Tin khuyến mại
+            </p>
+
+            <!--Nội dung-->
+            <div class="content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</section>
