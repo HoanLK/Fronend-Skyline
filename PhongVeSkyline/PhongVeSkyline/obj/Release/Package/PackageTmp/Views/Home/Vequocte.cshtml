@@ -1,0 +1,256 @@
+﻿
+@{
+    ViewBag.Title = "Vequocte";
+}
+
+<!--Trang vé quốc tế-->
+<section class="vequocte col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+
+    <!--Bài viết chính-->
+    <article class="baiviet col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
+        <!--Tiêu đề-->
+        <p class="title row">
+            Đặt vé máy bay đi quốc tế
+        </p>
+
+        <!--Nội dung-->
+        <div class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="content">
+                Nếu như trước đây, bạn phải mất hàng giờ truy cập website từng hãng hàng không để tìm kiếm tấm vé phù hợp cho chuyến đi của mình,
+                thì giờ đây, với Phngveskyline.com bạn hoàn toàn có thể sở hữu vé máy bay đi quốc tế chỉ trong vòng 3 phút.
+            </p>
+
+            <!--Ảnh trong bài viết-->
+            <div class="anh">
+                <img src="~/Content/images/anhbaiviet/quocte.png" alt="" class="img-responsive" />
+                <p>Sân bay Nội Bài - Hà Nội</p>
+            </div>
+
+            <!--bài viết-->
+            <p class="title">
+                Hành trình bay quốc tế từ Việt Nam
+            </p>
+            <p class="content">
+                Tại Việt Nam có 10 sân bay quốc tế thực hiện hành trình bay tới các châu lục Á, Âu, Mỹ, Phi… Cụ thể:
+            </p>
+
+            <!--Chặng bay-->
+            <div class="duongbay row">
+                <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <li>Sân bay quốc tế Cần Thơ (Cần Thơ)</li>
+                    <li>Sân bay quốc tế Cam Ranh (Khánh Hòa)</li>
+                    <li>Sân bay quốc tế Đà Nẵng (Đà Nẵng)</li>
+                    <li>Sân bay quốc tế Phú Quốc (Kiên Giang)</li>
+                    <li>Sân bay quốc tế Cát Bi (Hải Phòng)</li>
+                    <li>Sân bay quốc tế Chu Lai (Quảng Nam)</li>
+                    <li>Sân bay quốc tế Nội Bài (Hà Nội)</li>
+                    <li>Sân bay quốc tế Tân Sơn Nhất (Tp Hồ Chí Minh)</li>
+                    <li>Sân bay quốc tế Phú Bài (Thừa Thiên - Huế)</li>
+                </ul>
+            </div>
+
+            <p class="content">
+                Trong đó Nội Bài và Tân Sơn Nhất hiện là 2 cảng hàng không lớn nhất, khai thác nhiều đường bay đi quốc tế nhất.
+            </p>
+            <p class="title">
+                Hãng hàng không khai thác đường bay trong nước
+            </p>
+            <p class="content">
+                Tại Việt Nam, từ các cảng hàng không trên, bạn có thể thực hiện hành trình bay tới các nước trên thế giới với tấm vé máy bay của hơn 350 hãng hàng không quốc tế và 3 hãng hàng không nội địa.
+            </p>
+            <p class="content">
+                - Hãng hàng không nội địa: Tính đến thời điểm này cả 3 hãng hàng không nội địa là: Vietnam Airlines, Vietjet Air và Jetstar đều có đường bay đi quốc tế. <br />
+                    + Vietnam Airlines là hãng hàng không nội địa có mặt trên hầu hết trên khắp các đường bay quốc tế tới Châu Á, Châu Âu, Châu Mỹ, Châu Phi… <br />
+                    + Jetstar: Hiện hãng này đang phục vụ đường bay tới 14 nước trên thế giới: Úc, Campuchia, Trung Quốc, Hongkong, Indonexia; Malaysia, Myanmar, Nhật 
+            </p>
+        </div>
+    </article>
+
+    <!--Tìm kiếm chuyến bay - Tin Khuyến Mại-->
+    <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+        <!--Tìm chuyến bay-->
+        <div class="timchuyenbay col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Tiêu đề-->
+            <div class="title row">
+                <img src="~/Content/images/icon/plane-icon.png" alt="" class="pull-left" />
+                <p>Vé máy bay đi quốc tế</p>
+            </div>
+
+            <!--Thông tin tìm kiếm-->
+            <div class="info row">
+
+                <!--Radio button chọn loại vé-->
+                <form class="loaive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <input type="radio" name="loaive" value="khuhoi" class="pull-left" checked /><p class="pull-left">Khứ hồi</p>
+                    <input type="radio" name="loaive" value="motchieu" class="pull-left" /><p class="pull-left">Một chiều</p>
+                </form>
+
+                <!--Nhập địa điểm-->
+                <form class="diadiem col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Điểm đi-->
+                    <div class="row">
+                        <p class="pull-left">Điểm đi</p>
+                        <input type="text" placeholder="Nhập tên hoặc mã thành phố đi" value="" class="form-control" />
+                    </div>
+
+                    <!--Điểm đến-->
+                    <div class="row">
+                        <p class="pull-left">Điểm đến</p>
+                        <input type="text" placeholder="Nhập tên hoặc mã thành phố đến" value="" class="form-control" />
+                    </div>
+                </form>
+
+                <!--Thời gian-->
+                <form class="thoigian col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Ngày đi-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left">
+                        <p class="pull-left">Ngày đi</p>
+                        <select class="form-control">
+                            <option>15/11/2016</option>
+                            <option>16/11/2016</option>
+                            <option>17/11/2016</option>
+                            <option>18/11/2016</option>
+                            <option>19/11/2016</option>
+                        </select>
+                    </div>
+
+                    <!--Ngày về-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ngayve">
+                        <p class="pull-left">Ngày về</p>
+                        <select class="form-control pull-left">
+                            <option>16/11/2016</option>
+                            <option>17/11/2016</option>
+                            <option>18/11/2016</option>
+                            <option>19/11/2016</option>
+                            <option>20/11/2016</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!--Số lượng vé-->
+                <form class="soluong col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>Người lớn</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 treem">
+                        <p>Trẻ em (2-11)</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <!--Vé cho người lớn-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 embe">
+                        <p>Em bé (< 2)</p>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!--Nút tìm vé máy bay-->
+                <button type="submit">
+                    <img src="~/Content/images/icon/search-flights.png" alt="" class="img-responsive pull-left" />
+                    <p>Tìm kiếm chuyến bay</p>
+                </button>
+            </div>
+        </div>
+
+        <!--Tin khuyến mại-->
+        <div class="khuyenmai col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Tiêu đề-->
+            <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                Tin khuyến mại
+            </p>
+
+            <!--Nội dung-->
+            <div class="content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+
+                <!--Từng tin-->
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+
+                    <!--Tiêu đề-->
+                    <a href="#" class="title">
+                        Vi vu Đài Bắc dịp cuối năm cùng loạt vé Vietnam Airlines chỉ từ 250 USD khứ hồi.
+                    </a>
+
+                    <!--Tóm tắt-->
+                    <div class="detail">
+                        <img src="~/Content/images/anhbaiviet/ava.png" alt="" class="img-responsive pull-left" />
+                        <p>Những tháng cuối năm với dịp lễ Giáng sinh và Tết dương lịch vô cùng sôi động sẽ là thời điểm tuyệt vời để bạn lên kế hoạch cho những chuyến du lịch hứa hẹn...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</section>

@@ -73,7 +73,6 @@
         .venoidia > aside > .timchuyenbay {
             background: rgb(61, 90, 254);
             padding: 2em 2em;
-            border-radius: 1em;
         }
 
             /*Tiêu đề*/
@@ -222,7 +221,6 @@
                 .venoidia > aside > .timchuyenbay > .info > button {
                     background: rgb(255, 153, 51);
                     border: none;
-                    border-radius: 0.5em;
                     padding: 1em 1em;
                     margin: 1em 0 0 0;
                     width: 100%;

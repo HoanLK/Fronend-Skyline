@@ -10,7 +10,7 @@ body {
 
     /*Menu*/
     .ads-menu > header {
-        padding: 0 0 2em 0;
+        padding: 0 0 1em 0;
         background: rgb(255, 255, 255);
     }
 
@@ -18,59 +18,79 @@ body {
             padding: 0;
         }
 
-            /*Dòng sologan trên cùng*/
-            .ads-menu > header > .desktop > .sologan {
-                padding: 0.8em 0 0.2em 0;
-                background: linear-gradient(to top, rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, .2) 12%,rgba(255, 255, 255, .4) 49%,rgba(255, 255, 255, .6) 51%,rgba(255, 255, 255, .8) 100% );
+            .ads-menu > header > .desktop > .sologan > p {
             }
-
-                .ads-menu > header > .desktop > .sologan > p {
-                }
 
             /*Logo - hotline*/
             .ads-menu > header > .desktop > .logo-hotline {
-                height: 1%;
-                overflow: hidden;
-                background: rgb(255, 255, 255);
-                padding: 1em 1em;
+                height: 18em;
+                background: url(../Content/images/trangchu/banner-bg.jpg) 0 -10em no-repeat;
+                background-size: 100%;
+                padding: 0;
             }
 
-                .ads-menu > header > .desktop > .logo-hotline > a {
+                /*.ads-menu > header > .desktop > .logo-hotline > a {
                     padding: 0;
                     display: inline-flex;
                     text-decoration: none;
                     text-align: center;
+                    background: rgba(255, 255, 255, .2);
+                }*/
+
+                .ads-menu > header > .desktop > .logo-hotline > .logo {
+                    background: rgba(255, 255, 255, .3);
+                    border-radius: 10em;
+                    width: 15em;
+                    height: 15em;
+                    text-align: center;
+                    float: left;
+                    transition: all .3s ease-in-out;
+                    margin: 1em 0 0 1em;
                 }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a > img {
-                        padding: 0;
-                        height: 4em;
+                    .ads-menu > header > .desktop > .logo-hotline > .logo:hover {
+                        background: rgba(255, 255, 255, .8);
                     }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a > i {
+                    .ads-menu > header > .desktop > .logo-hotline > .logo > img {
+                        padding: 0;
+                        height: 4.5em;
+                        margin: 5.5em auto;
+                    }
+
+                .ads-menu > header > .desktop > .logo-hotline > .hotline {
+                    float: right;
+                    display: inline-flex;
+                    background: rgb(255, 255, 255);
+                    text-decoration: none;
+                    padding: 0.5em;
+                }
+
+                    .ads-menu > header > .desktop > .logo-hotline > .hotline > i {
                         font-size: 2em;
                         color: rgb(255, 0, 0);
-                        padding: 0.5em 0;
-                        margin: 0 0.5em 0 0;
+                        padding: 0;
+                        margin: 0.3em 0.5em 0 0;
                     }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a > p {
+                    .ads-menu > header > .desktop > .logo-hotline > .hotline > p {
                         color: rgb(21, 101, 192);
-                        margin: 0.4em 0 0 0;
+                        margin: 0 0 0 0;
                         transition: all .3s ease-in-out;
+                        padding: 15% 0 0 0;
                     }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a:hover > p {
+                    .ads-menu > header > .desktop > .logo-hotline > .hotline:hover > p {
                         color: rgb(255, 0, 0);
                     }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a > p > span {
+                    .ads-menu > header > .desktop > .logo-hotline > .hotline > p > span {
                         font-size: 1.2em;
                         color: rgb(255, 0, 0);
                         transition: all .3s ease-in-out;
                     }
 
-                    .ads-menu > header > .desktop > .logo-hotline > a:hover > p > span {
+                    .ads-menu > header > .desktop > .logo-hotline > .hotline:hover > p > span {
                         color: rgb(21, 101, 192);
                     }
 
@@ -78,8 +98,7 @@ body {
             .ads-menu > header > .desktop > .menu {
                 padding: 0;
                 margin: 0 0 1em 0;
-                background: linear-gradient(to bottom, rgba(61, 90, 254, .6) 0,rgba(61, 90, 254, .7) 12%,rgba(61, 90, 254, .9) 49%,rgba(61, 90, 254, .9) 51%,rgba(61, 90, 254, 1) 100% );
-                border-radius: 0.4em;
+                background: #1976D2;
             }
 
                 .ads-menu > header > .desktop > .menu > ul {
@@ -97,14 +116,14 @@ body {
                             font-size: 1.2em;
                             color: rgb(255, 255, 255);
                             display: block;
-                            padding: 0.6em 0.7em 0.6em 0.7em;
+                            padding: 0.6em 0.7em;
                             text-decoration: none;
                             transition: all .2s ease-in-out;
                         }
 
                             .ads-menu > header > .desktop > .menu > ul > li > a:hover {
-                                background: linear-gradient(to bottom, rgba(255, 255, 255, .6) 0,rgba(255, 255, 255, .7) 12%,rgba(255, 255, 255, .9) 49%,rgba(255, 255, 255, .9) 51%,rgba(255, 255, 255, 1) 100% );
-                                color: rgb(61, 90, 254);
+                                background: rgb(255,255,255);
+                                color: #0D47A1;
                             }
 
                             .ads-menu > header > .desktop > .menu > ul > li > a > i {

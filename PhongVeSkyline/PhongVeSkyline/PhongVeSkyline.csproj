@@ -192,9 +192,11 @@
     <Content Include="Content\images\trangchu\bank.jpg" />
     <Content Include="Content\images\trangchu\banner-1.png" />
     <Content Include="Content\images\trangchu\banner-2.png" />
+    <Content Include="Content\images\trangchu\banner-bg.jpg" />
     <Content Include="Content\images\trangchu\bg_textbox.jpg" />
     <Content Include="Content\images\trangchu\calendar.png" />
     <Content Include="Content\images\trangchu\chatbox-icon.png" />
+    <Content Include="Content\images\trangchu\datve-bg.png" />
     <Content Include="Content\images\trangchu\den.png" />
     <Content Include="Content\images\trangchu\di.png" />
     <Content Include="Content\images\trangchu\hotel-icon.png" />
@@ -257,6 +259,7 @@
     <Content Include="Content\font-awesome-4.6.3\scss\_screen-reader.scss" />
     <Content Include="Content\font-awesome-4.6.3\scss\_stacked.scss" />
     <Content Include="Content\font-awesome-4.6.3\scss\_variables.scss" />
+    <None Include="Properties\PublishProfiles\123.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Front\header-footer.js" />
     <Content Include="Scripts\Front\jquery.dlmenu.js" />

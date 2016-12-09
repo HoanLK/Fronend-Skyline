@@ -15,6 +15,9 @@
         /*Đặt vé*/
         .trangchu > .datve-banner-khuyenmai > .datve {
             padding: 0;
+            background: url(../Content/images/trangchu/datve-bg.png) no-repeat;
+            background-size: 100%;
+            height: 20em;
         }
 
             /*Thanh tabs*/
@@ -26,13 +29,13 @@
 
                 /*Vé máy bay*/
                 .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .airfare {
-                    background: url(../Content/images/trangchu/tabs.png) no-repeat top left;
+                    background: rgb(21,101,192);
                     background-size: 100%;
                     z-index: 20;
                     height: 4.3em;
-                    padding: 1em 3em;
+                    padding: 1em 1em;
                     float: left;
-                    width: 25em;
+                    width: 55%;
                     position: absolute;
                 }
 
@@ -46,18 +49,21 @@
                         font-weight: bold;
                         text-shadow: rgb(1, 17, 35) 1px 1px;
                         line-height: 1.5em;
-                        padding: 0 0 0 2em;
+                        text-align: center;
                     }
+
+                        .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .airfare > p > i {
+                            padding: 0 0.5em 0 0;
+                        }
 
                 /*Khách sạn*/
                 .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .hotel {
                     float: right;
-                    background: url(../Content/images/trangchu/tabs-2.png) no-repeat top right;
+                    background: rgb(25,118,210);
                     background-size: 100%;
-                    width: 19em;
+                    width: 45%;
                     height: 4em;
-                    padding: 0.6em 0 0 2.5em;
-                    margin: 0.5em 0.5em 0 0;
+                    margin: 0.3em 0.3em 0 0;
                 }
 
                     .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .hotel > img {
@@ -69,14 +75,18 @@
                         text-transform: uppercase;
                         font-weight: bold;
                         text-shadow: rgb(1, 17, 35) 1px 1px;
-                        line-height: 1.8em;
-                        padding: 0 0 0 1.8em;
+                        line-height: 3em;
+                        text-align: center;
+                        padding: 0;
                     }
+
+                        .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .hotel > p > i {
+                            padding: 0 0.5em 0 0;
+                        }
 
             /*Khung thông tin vé*/
             .trangchu > .datve-banner-khuyenmai > .datve > .detail {
-                background: rgb(16, 66, 130) url(../Content/images/trangchu/timve-bg.jpg) repeat-x top;
-                border-radius: 0 0.5em 0.5em 0.5em;
+                background: rgb(21,101,192);
             }
 
                 /*Thông tin vé*/
@@ -175,8 +185,11 @@
                                 .trangchu > .datve-banner-khuyenmai > .datve > .detail > .books-info > .info > .dates > .choose > .month > option {
                                 }
 
-                            .trangchu > .datve-banner-khuyenmai > .datve > .detail > .books-info > .info > .dates > .choose > img {
-                                margin: 0 0 0 0.5em;
+                            .trangchu > .datve-banner-khuyenmai > .datve > .detail > .books-info > .info > .dates > .choose > i {
+                                color: rgb(255, 255, 255);
+                                font-size: 2em;
+                                cursor: pointer;
+                                padding: 0 0 0 0.2em;
                             }
 
                         /*Lịch âm*/
@@ -241,19 +254,28 @@
                         }
 
                     /*Nút tìm vé*/
-                    .trangchu > .datve-banner-khuyenmai > .datve > .detail > .timkiem > input {
-                        background: url(../Content/images/trangchu/timkiem.png) no-repeat center center;
-                        background-size: 100%;
+                    .trangchu > .datve-banner-khuyenmai > .datve > .detail > .timkiem > button {
+                        background: rgb(255,152,0);
                         border: none;
-                        width: 12.5em;
-                        height: 4em;
+                        width: 12em;
+                        height: 3em;
                         font-size: 1.3em;
                         color: rgb(255, 255, 255);
                         font-weight: bold;
                         text-transform: uppercase;
-                        text-align: right;
-                        padding: 0 1em 0 0;
+                        text-align: center;
+                        padding: 0;
+                        transition: all .3s ease-in-out;
                     }
+
+                        .trangchu > .datve-banner-khuyenmai > .datve > .detail > .timkiem > button > i {
+                            font-size: 1.5em;
+                            padding: 0 0.2em 0 0;
+                        }
+
+                        .trangchu > .datve-banner-khuyenmai > .datve > .detail > .timkiem > button:hover {
+                            background: rgb(245,124,0);
+                        }
 
         /*Banner - khuyến mại*/
         .trangchu > .datve-banner-khuyenmai > .banner-khuyenmai {
@@ -663,15 +685,15 @@
         }
 
         /*Khách sạn*/
-                .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .hotel {
-                    float: right;
-                    background: url(../Content/images/trangchu/tabs-2.png) no-repeat top right;
-                    background-size: 100%;
-                    width: 19em;
-                    height: 4em;
-                    padding: 0.6em 0 0 4em;
-                    margin: 0.5em 0.5em 0 0;
-                }
+        .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .hotel {
+            float: right;
+            background: url(../Content/images/trangchu/tabs-2.png) no-repeat top right;
+            background-size: 100%;
+            width: 19em;
+            height: 4em;
+            padding: 0.6em 0 0 4em;
+            margin: 0.5em 0.5em 0 0;
+        }
 }
 
 /*Giao diện cho tablet (dọc)*/
@@ -834,7 +856,8 @@
 @media (max-width: 767px) {
     /*Vé máy bay*/
     .trangchu > .datve-banner-khuyenmai > .datve {
-        padding: 1em 0 0 0;
+        padding: 0;
+        height: 12em;
     }
 
         .trangchu > .datve-banner-khuyenmai > .datve > .tabs > .airfare {
@@ -935,12 +958,12 @@
 
     /*Banner - khuyến mại*/
     .trangchu > .datve-banner-khuyenmai > .banner-khuyenmai {
-        padding: 1em 0 0 0;
+        padding: 0;
     }
 
         /*Khuyến mại*/
         .trangchu > .datve-banner-khuyenmai > .banner-khuyenmai > .khuyenmai {
-            padding: 2em 0 0 0;
+            padding: 0;
         }
 
     /*Hình thức mua vé- hình thức thanh toán*/

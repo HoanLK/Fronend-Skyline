@@ -6,7 +6,6 @@ $("#button-search").click(function () {
         $("#dl-menu").css("border-bottom", "none");
     } else {
         $("#search-box").slideToggle("medium");
-        //$("#search-box").css("display", "none");
         $("#dl-menu").css("border-bottom", "solid 2px rgb(61, 90, 254)");
     }
 });
